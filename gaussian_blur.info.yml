@@ -1,0 +1,5 @@
+name: Gaussian Blur
+type: module
+description: Make image gaussian blur.
+core: 1.x
+package: Hunter

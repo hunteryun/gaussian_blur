@@ -1,0 +1,3 @@
+services:
+  gaussian_blur.gaussian_blur_service:
+    class: Hunter\gaussian_blur\Plugin\ImagesGaussianBlur

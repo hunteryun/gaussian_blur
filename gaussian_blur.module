@@ -1,0 +1,12 @@
+<?php
+
+use Hunter\gaussian_blur\Plugin\ImagesGaussianBlur;
+
+/**
+ * Make image gaussian blur.
+ */
+function image_blur($image_path, $savefile = NULL, $blurFactor = 5) {
+  $image_blur = new ImagesGaussianBlur();
+  $result_url = $image_blur->gaussian_blur($image_path, $savefile, $blurFactor);
+  return $result_url;
+}
